@@ -1,0 +1,13 @@
+{
+    "versicherungsnummer": 88888888,
+    "tarif": "super BU 1",
+    "status": "AKTIV",
+    "beitrag": {
+        "zahlweise": "MONATLICH"
+    },
+    "umfang": {
+        "beginn": "1999-04-23T18:25:43.511Z",
+        "ende": "2023-04-23T18:25:43.511Z"
+    },
+    "renteMonatlich": 3003.12
+}

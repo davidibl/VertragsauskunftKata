@@ -1,0 +1,14 @@
+{
+    "versicherungsnummer": 77777777,
+    "tarif": "krasse Risikoleben",
+    "status": "GESPERRT",
+    "beitrag": {
+        "zahlweise": "MONATLICH",
+        "zahlbeitrag": 3.99
+    },
+    "umfang": {
+        "beginn": "1999-04-23T18:25:43.511Z",
+        "ende": "2023-04-23T18:25:43.511Z"
+    },
+    "versicherungssumme": 120000000
+}

@@ -1,0 +1,14 @@
+{
+    "versicherungsnummer": 66666666,
+    "tarif": "super BU 1",
+    "status": "AKTIV",
+    "beitrag": {
+        "zahlweise": "JAEHRLICH",
+        "zahlbeitrag": 102.45
+    },
+    "umfang": {
+        "beginn": "1999-04-23T18:25:43.511Z",
+        "ende": "2023-04-23T18:25:43.511Z"
+    },
+    "renteMonatlich": 3003.47
+}
