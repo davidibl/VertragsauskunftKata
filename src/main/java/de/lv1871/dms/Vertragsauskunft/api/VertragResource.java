@@ -29,17 +29,17 @@ public class VertragResource {
 
 	@RequestMapping(path = "/api/vertrag/{versicherungsnummer}/beitrag", method = RequestMethod.GET)
 	public @ResponseBody Beitrag getBeitrag(@PathVariable(name = "versicherungsnummer") Long versicherungsnummer) {
-		return null;
+		return service.getBeitrag(versicherungsnummer);
 	}
 
 	@RequestMapping(path = "/api/vertrag/{versicherungsnummer}/beitrag/zahlbeitrag", method = RequestMethod.GET)
 	public @ResponseBody Double getZahlbeitrag(@PathVariable(name = "versicherungsnummer") Long versicherungsnummer) {
-		return null;
+		return service.getZahlbeitrag(versicherungsnummer);
 	}
 
 	@RequestMapping(path = "/api/vertrag/{versicherungsnummer}/jahresbeitrag/zahlbeitrag", method = RequestMethod.GET)
 	public @ResponseBody Double getZahlbeitragJahr(
 			@PathVariable(name = "versicherungsnummer") Long versicherungsnummer) {
-		return null;
+		return service.getZahlbeitragJahr(versicherungsnummer);
 	}
 }
